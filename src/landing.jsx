@@ -7,6 +7,8 @@ import odont from './assets/g2.jpg';
 import doct from './assets/g3.png';
 import doct1 from './assets/reg.png';
 import doct2 from './assets/regis.png';
+import doctor2 from './assets/doctor.jpg';
+import doctor3 from './assets/juan.jpg';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Landing = () => {
@@ -197,16 +199,24 @@ const Landing = () => {
   </div>
 </section>
       {/* Testimonials Section */}
-      <section id="testimonios" className="py-20 px-8 bg-white text-center">
+      <section id="testimonios" className="w-full max-w-4xl bg-neutral-300 rounded-3xl text-neutral-300 p-8 flex flex-col items-center justify-center gap-6 hover:bg-gray-400 hover:shadow-2xl hover:shadow-sky-400 transition-shadow mx-auto">
         <h2 className="text-3xl font-bold text-[#266AA6]">Testimonios</h2>
-        <div className="mt-8 grid gap-8 md:grid-cols-2">
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <p className="italic">Excelente servicio, fácil acceso a mi expediente digital.</p>
-            <p className="mt-4 font-bold">- María López</p>
+        <div className="grid gap-8 md:grid-cols-2 w-full">
+          {/* Testimonio 1 */}
+          <div className="bg-[#266AA6] p-6 rounded-2xl flex items-center gap-4">
+            <img src={doctor2} alt="Foto de Marío López" className="w-16 h-16 rounded-full object-cover" />
+            <div className="text-left">
+              <p className="italic">Excelente servicio, fácil acceso al expediente digital de mis pacientes.</p>
+              <p className="mt-4 font-bold">- Marío López</p>
+            </div>
           </div>
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <p className="italic">La tecnología ha mejorado significativamente mi experiencia.</p>
-            <p className="mt-4 font-bold">- Juan Pérez</p>
+          {/* Testimonio 2 */}
+          <div className=" bg-[#266AA6] p-6 rounded-2xl flex items-center gap-4">
+            <img src={doctor3} alt="Foto de Juan Pérez" className="w-16 h-16 rounded-full object-cover" />
+            <div className="text-left">
+              <p className="italic">La tecnología ha mejorado significativamente mi experiencia.</p>
+              <p className="mt-4 font-bold">- Juan Pérez</p>
+            </div>
           </div>
         </div>
       </section>
