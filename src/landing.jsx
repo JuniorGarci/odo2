@@ -201,7 +201,7 @@ const Landing = () => {
   </div>
 </section>
       {/* Testimonials Section */}
-      <section id="testimonios" className="w-full max-w-4xl bg-neutral-100 rounded-3xl text-neutral-100 p-10 m-6  pt-20 flex flex-col items-center justify-center gap-6  hover:shadow-2xl hover:shadow-sky-400 transition-shadow mx-auto mg">
+      <section id="testimonios" className="w-full max-w-4xl bg-neutral-100 rounded-3xl text-neutral-100 p-10 m-7  pt-24 flex flex-col items-center justify-center gap-6  hover:shadow-2xl hover:shadow-sky-400 transition-shadow mx-auto mg">
         <h2 className="text-3xl font-bold text-[#266AA6]">Testimonios</h2>
         <div className="grid gap-8 md:grid-cols-2 w-full">
           {/* Testimonio 1 */}
