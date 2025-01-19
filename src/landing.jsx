@@ -112,9 +112,11 @@ const Landing = () => {
           <p className="mt-4 text-lg md:text-xl">
             Accede fácilmente a tu historial dental con innovación y tecnología.
           </p>
-          <button className="mt-6 px-6 py-2 bg-white text-[#266AA6] font-semibold rounded-full hover:bg-gray-200 transition duration-300">
-            Iniciar Sesión
-          </button>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" >
+            <button className="mt-6 px-6 py-2 bg-white text-[#266AA6] font-semibold rounded-full hover:bg-gray-200 transition duration-300">
+              Iniciar Sesión
+             </button>
+        </a>
         </div>
       </section>
 
