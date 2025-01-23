@@ -54,6 +54,9 @@ const manifestForPlugin = {
     start_url: "/",
     orientation: "portrait",
   },
+  workbox: {
+    globPatterns: ['**/*.{js,css,html,ico,png,svg}'], // Archivos que se cachearán
+  },
   devOptions: {
     enabled: true, // Habilita el plugin en modo de desarrollo
   },
